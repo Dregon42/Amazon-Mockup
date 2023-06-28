@@ -1,0 +1,112 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: block;
+    border: 2px;
+    border-color: black;
+    
+}
+
+.a-box {
+    margin-bottom: 0;
+    border: solid gray;
+    width: 30%;
+    height: 300px;
+}
+
+label {
+    padding-left: 5px;
+}
+
+.button {
+    background-color: gold;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 20px;
+}
+
+div {
+    display: block;
+}
+
+input {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 4px;
+    border: solid;
+    border-color: gray;
+    padding-left: revert;
+    margin: 5px;
+    width: 95%;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+}
+
+section {
+    display: block;
+    text-align: center;
+}
+
+.question {
+    margin-top: -10px;
+    height: 50px;
+}
+
+.forgot-password {
+    color: blue;
+    margin-left: 150px;
+    }
+
+.terms {
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+    width: 60%;
+    padding-left: 22%;
+    font-size: .75em;
+    }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    color: gray;
+}
+
+.new-button {
+    height: 20px;
+    margin-bottom: 5px;
+    width: 28%;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: center;
+}
+
+.need-help {
+    padding: 40px;
+    text-align: center;
+}
